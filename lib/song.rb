@@ -13,6 +13,7 @@ def self.new_by_filename(file)
   song= self.new(song_name)
   song.artist_name = artist
   song
+  binding.pry 
 end
 
 def artist_name=(name)
