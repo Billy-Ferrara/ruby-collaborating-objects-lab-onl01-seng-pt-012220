@@ -28,10 +28,10 @@ class Artist
     if @@all.find do |artist|
        artist.name == name
         artist
-      end 
+      end
       else
         new_artist = Artist.new(name)
-        new_artist
+        new_artist.save 
       end
   end
 
