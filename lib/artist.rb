@@ -10,9 +10,8 @@ class Artist
 
   def self.all
     @@all << self
-    @@all <<artist.new 
+    @@all <<artist.new
     self
-    binding.pry
   end
 
   def songs
