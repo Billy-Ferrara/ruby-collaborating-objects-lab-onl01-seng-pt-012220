@@ -15,5 +15,6 @@ end
         @files << file
   end
 end
+@files 
 end
 end 
