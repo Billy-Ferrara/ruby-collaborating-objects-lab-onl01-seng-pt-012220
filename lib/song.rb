@@ -12,7 +12,7 @@ def self.new_by_filename(file)
   artist= file.split("-")[0]
   song= self.new(song_name)
   song.artist_name = artist.strip
-  song
+  song.strip 
 
 end
 
