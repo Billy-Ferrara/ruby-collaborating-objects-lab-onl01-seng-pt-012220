@@ -22,7 +22,7 @@ def artist_name=(name)
 end
 
 def Song.all
-@@all.songs 
+song 
 end
 
 end
