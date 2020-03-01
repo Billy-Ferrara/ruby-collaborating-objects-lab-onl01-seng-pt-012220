@@ -12,6 +12,8 @@ end
     file = Dir.entries(@path)
     file.each do |file|
       if file.include?("mp3")
-        @files << file 
+        @files << file
   end
 end
+end
+end 
