@@ -11,6 +11,7 @@ class Artist
 
   def self.all
     @@all << self
+    binding.pry 
   end
 
   def songs
