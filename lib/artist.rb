@@ -28,7 +28,6 @@ class Artist
       else
         new_artist = Artist.new(name)
         new_artist
-        @@all << new_artist
       end
   end
 
