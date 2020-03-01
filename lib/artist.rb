@@ -9,8 +9,8 @@ class Artist
   end
 
   def self.all
-    @@all << self 
-    @@all
+    @@all << self
+    self 
   end
 
   def songs
