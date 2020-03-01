@@ -20,10 +20,6 @@ class Artist
     @songs << song
   end
 
-  def save
-    @@all << self
-  end
-
   def self.find_or_create_by_name(name)
     if @@all.find do |artist|
        artist.name == name
